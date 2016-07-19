@@ -8,6 +8,7 @@ var path	=	require("path");
   		// extended: true
 		// }));
 // app.use(global.methodOverride());
+
 app.get('/', function(req, res){
 	res.sendFile(path.join(__dirname+'/public/test.html'));
 	
