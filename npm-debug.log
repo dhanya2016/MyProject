@@ -1,0 +1,659 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'path',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of E:\projectisil\IoT sample\package.json
+5 warn package.json sample@1.0.0 No repository field.
+6 warn package.json sample@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\apn\package.json
+8 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\async\package.json
+9 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\body-parser\package.json
+10 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\crypto\package.json
+11 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\errorhandler\package.json
+12 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\express\package.json
+13 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\express-session\package.json
+14 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\express-validator\package.json
+15 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\method-override\package.json
+16 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\mongoose\package.json
+17 verbose installManyTop reading scoped package data from E:\projectisil\IoT sample\node_modules\mongoose-auto-increment\package.json
+18 info package.json crypto@0.0.3 crypto is also the name of a node core module.
+19 info package.json crypto@0.0.3 No license field.
+20 info package.json mongoose-auto-increment@4.0.0 No license field.
+21 verbose readDependencies loading dependencies from E:\projectisil\IoT sample\package.json
+22 silly cache add args [ 'path', null ]
+23 verbose cache add spec path
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'path',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'path',
+24 silly cache add   rawSpec: '',
+24 silly cache add   spec: 'latest',
+24 silly cache add   type: 'tag' }
+25 silly addNamed path@latest
+26 verbose addNamed "latest" is being treated as a dist-tag for path
+27 info addNameTag [ 'path', 'latest' ]
+28 silly mapToRegistry name path
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'path',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'path',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/path
+33 verbose addNameTag registry:https://registry.npmjs.org/path not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/path
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 11:58:53 PM
+37 verbose request id baeac9d01d98cce5
+38 verbose etag "CBVXRTOXF4CTTO5DFJG8I8IA0"
+39 http request GET https://registry.npmjs.org/path
+40 http 200 https://registry.npmjs.org/path
+41 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 verbose headers   etag: '"6Q5USJQ7AUNP5L90J57R0MZG3"',
+41 verbose headers   'content-type': 'application/json',
+41 verbose headers   'content-encoding': 'gzip',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '1726',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Sun, 10 Jul 2016 18:29:02 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   age: '0',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-lhr6337-LHR',
+41 verbose headers   'x-cache': 'HIT',
+41 verbose headers   'x-cache-hits': '1',
+41 verbose headers   'x-timer': 'S1468175342.116545,VS0,VE663',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 silly get cb [ 200,
+42 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 silly get     etag: '"6Q5USJQ7AUNP5L90J57R0MZG3"',
+42 silly get     'content-type': 'application/json',
+42 silly get     'content-encoding': 'gzip',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     'content-length': '1726',
+42 silly get     'accept-ranges': 'bytes',
+42 silly get     date: 'Sun, 10 Jul 2016 18:29:02 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     age: '0',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-lhr6337-LHR',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '1',
+42 silly get     'x-timer': 'S1468175342.116545,VS0,VE663',
+42 silly get     vary: 'Accept-Encoding' } ]
+43 verbose get saving path to C:\Users\Dhanya\AppData\Roaming\npm-cache\registry.npmjs.org\path\.cache.json
+44 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+45 silly addNameTag next cb for path with tag latest
+46 silly addNamed path@0.12.7
+47 verbose addNamed "0.12.7" is a plain semver version for path
+48 silly cache afterAdd path@0.12.7
+49 verbose afterAdd C:\Users\Dhanya\AppData\Roaming\npm-cache\path\0.12.7\package\package.json not in flight; writing
+50 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+51 verbose afterAdd C:\Users\Dhanya\AppData\Roaming\npm-cache\path\0.12.7\package\package.json written
+52 silly install resolved [ { author: { name: 'Joyent', url: 'http://www.joyent.com' },
+52 silly install resolved     name: 'path',
+52 silly install resolved     description: 'Node.JS path module',
+52 silly install resolved     keywords: [ 'ender', 'path' ],
+52 silly install resolved     license: 'MIT',
+52 silly install resolved     version: '0.12.7',
+52 silly install resolved     homepage: 'http://nodejs.org/docs/latest/api/path.html',
+52 silly install resolved     repository: { type: 'git', url: 'git://github.com/jinder/path.git' },
+52 silly install resolved     main: './path.js',
+52 silly install resolved     dependencies: { process: '^0.11.1', util: '^0.10.3' },
+52 silly install resolved     gitHead: '7fbaede3ca9d224494cbdd47d7ca803ee96d2055',
+52 silly install resolved     bugs: { url: 'https://github.com/jinder/path/issues' },
+52 silly install resolved     _id: 'path@0.12.7',
+52 silly install resolved     scripts: {},
+52 silly install resolved     _shasum: 'd4dc2a506c4ce2197eb481ebfcd5b36c0140b10f',
+52 silly install resolved     _from: 'path@latest',
+52 silly install resolved     _npmVersion: '2.11.3',
+52 silly install resolved     _nodeVersion: '0.12.7',
+52 silly install resolved     _npmUser: { name: 'jinder', email: 'jindersidhu@gmail.com' },
+52 silly install resolved     dist:
+52 silly install resolved      { shasum: 'd4dc2a506c4ce2197eb481ebfcd5b36c0140b10f',
+52 silly install resolved        tarball: 'https://registry.npmjs.org/path/-/path-0.12.7.tgz' },
+52 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+52 silly install resolved     directories: {},
+52 silly install resolved     _resolved: 'https://registry.npmjs.org/path/-/path-0.12.7.tgz',
+52 silly install resolved     readme: 'ERROR: No README data found!' } ]
+53 info install path@0.12.7 into E:\projectisil\IoT sample
+54 info installOne path@0.12.7
+55 verbose installOne of path to E:\projectisil\IoT sample not in flight; installing
+56 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+57 verbose lock using C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks\path-db5cf7a53904e73d.lock for E:\projectisil\IoT sample\node_modules\path
+58 silly install write writing path 0.12.7 to E:\projectisil\IoT sample\node_modules\path
+59 verbose unbuild node_modules\path
+60 silly gentlyRm E:\projectisil\IoT sample\node_modules\path is being purged from base E:\projectisil\IoT sample
+61 verbose gentlyRm don't care about contents; nuking E:\projectisil\IoT sample\node_modules\path
+62 verbose tar unpack C:\Users\Dhanya\AppData\Roaming\npm-cache\path\0.12.7\package.tgz
+63 verbose tar unpacking to E:\projectisil\IoT sample\node_modules\path
+64 silly gentlyRm E:\projectisil\IoT sample\node_modules\path is being purged
+65 verbose gentlyRm don't care about contents; nuking E:\projectisil\IoT sample\node_modules\path
+66 silly gunzTarPerm modes [ '777', '666' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm extractEntry LICENSE
+71 silly gunzTarPerm extractEntry path.js
+72 verbose write writing to E:\projectisil\IoT sample\node_modules\path\package.json
+73 info preinstall path@0.12.7
+74 verbose readDependencies loading dependencies from E:\projectisil\IoT sample\node_modules\path\package.json
+75 silly prepareForInstallMany adding process@^0.11.1 from path dependencies
+76 silly prepareForInstallMany adding util@^0.10.3 from path dependencies
+77 verbose readDependencies loading dependencies from E:\projectisil\IoT sample\node_modules\path\package.json
+78 silly cache add args [ 'util@^0.10.3', null ]
+79 verbose cache add spec util@^0.10.3
+80 silly cache add parsed spec Result {
+80 silly cache add   raw: 'util@^0.10.3',
+80 silly cache add   scope: null,
+80 silly cache add   name: 'util',
+80 silly cache add   rawSpec: '^0.10.3',
+80 silly cache add   spec: '>=0.10.3 <0.11.0',
+80 silly cache add   type: 'range' }
+81 silly addNamed util@>=0.10.3 <0.11.0
+82 verbose addNamed ">=0.10.3 <0.11.0" is a valid semver range for util
+83 silly addNameRange { name: 'util', range: '>=0.10.3 <0.11.0', hasData: false }
+84 silly mapToRegistry name util
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'util',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   name: 'util',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri https://registry.npmjs.org/util
+89 verbose addNameRange registry:https://registry.npmjs.org/util not in flight; fetching
+90 silly cache add args [ 'process@^0.11.1', null ]
+91 verbose cache add spec process@^0.11.1
+92 silly cache add parsed spec Result {
+92 silly cache add   raw: 'process@^0.11.1',
+92 silly cache add   scope: null,
+92 silly cache add   name: 'process',
+92 silly cache add   rawSpec: '^0.11.1',
+92 silly cache add   spec: '>=0.11.1 <0.12.0',
+92 silly cache add   type: 'range' }
+93 silly addNamed process@>=0.11.1 <0.12.0
+94 verbose addNamed ">=0.11.1 <0.12.0" is a valid semver range for process
+95 silly addNameRange { name: 'process', range: '>=0.11.1 <0.12.0', hasData: false }
+96 silly mapToRegistry name process
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry data Result {
+99 silly mapToRegistry   raw: 'process',
+99 silly mapToRegistry   scope: null,
+99 silly mapToRegistry   name: 'process',
+99 silly mapToRegistry   rawSpec: '',
+99 silly mapToRegistry   spec: 'latest',
+99 silly mapToRegistry   type: 'tag' }
+100 silly mapToRegistry uri https://registry.npmjs.org/process
+101 verbose addNameRange registry:https://registry.npmjs.org/process not in flight; fetching
+102 verbose request uri https://registry.npmjs.org/process
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 11:59:04 PM
+105 verbose etag "CZL9P2UC1DQVC7EP9EJDF2EO"
+106 http request GET https://registry.npmjs.org/process
+107 verbose request uri https://registry.npmjs.org/util
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 11:59:04 PM
+110 verbose etag "CCYSQGRWDSJ4T4EMX2L44O00T"
+111 http request GET https://registry.npmjs.org/util
+112 http 200 https://registry.npmjs.org/process
+113 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+113 verbose headers   etag: '"55JHC36HIXNP2519BF0SFAJ4D"',
+113 verbose headers   'content-type': 'application/json',
+113 verbose headers   'content-encoding': 'gzip',
+113 verbose headers   'cache-control': 'max-age=300',
+113 verbose headers   'content-length': '3664',
+113 verbose headers   'accept-ranges': 'bytes',
+113 verbose headers   date: 'Sun, 10 Jul 2016 18:29:05 GMT',
+113 verbose headers   via: '1.1 varnish',
+113 verbose headers   age: '128',
+113 verbose headers   connection: 'keep-alive',
+113 verbose headers   'x-served-by': 'cache-lhr6337-LHR',
+113 verbose headers   'x-cache': 'HIT',
+113 verbose headers   'x-cache-hits': '1',
+113 verbose headers   'x-timer': 'S1468175345.586776,VS0,VE0',
+113 verbose headers   vary: 'Accept-Encoding' }
+114 silly get cb [ 200,
+114 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+114 silly get     etag: '"55JHC36HIXNP2519BF0SFAJ4D"',
+114 silly get     'content-type': 'application/json',
+114 silly get     'content-encoding': 'gzip',
+114 silly get     'cache-control': 'max-age=300',
+114 silly get     'content-length': '3664',
+114 silly get     'accept-ranges': 'bytes',
+114 silly get     date: 'Sun, 10 Jul 2016 18:29:05 GMT',
+114 silly get     via: '1.1 varnish',
+114 silly get     age: '128',
+114 silly get     connection: 'keep-alive',
+114 silly get     'x-served-by': 'cache-lhr6337-LHR',
+114 silly get     'x-cache': 'HIT',
+114 silly get     'x-cache-hits': '1',
+114 silly get     'x-timer': 'S1468175345.586776,VS0,VE0',
+114 silly get     vary: 'Accept-Encoding' } ]
+115 verbose get saving process to C:\Users\Dhanya\AppData\Roaming\npm-cache\registry.npmjs.org\process\.cache.json
+116 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+117 silly addNameRange number 2 { name: 'process', range: '>=0.11.1 <0.12.0', hasData: true }
+118 silly addNameRange versions [ 'process',
+118 silly addNameRange   [ '0.4.9',
+118 silly addNameRange     '0.5.0',
+118 silly addNameRange     '0.5.1',
+118 silly addNameRange     '0.5.2',
+118 silly addNameRange     '0.6.0',
+118 silly addNameRange     '0.7.0',
+118 silly addNameRange     '0.8.0',
+118 silly addNameRange     '0.9.0',
+118 silly addNameRange     '0.10.0',
+118 silly addNameRange     '0.10.1',
+118 silly addNameRange     '0.11.0',
+118 silly addNameRange     '0.11.1',
+118 silly addNameRange     '0.11.2',
+118 silly addNameRange     '0.11.3',
+118 silly addNameRange     '0.11.4',
+118 silly addNameRange     '0.11.5' ] ]
+119 silly addNamed process@0.11.5
+120 verbose addNamed "0.11.5" is a plain semver version for process
+121 silly mapToRegistry name process
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'process',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   name: 'process',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag' }
+125 silly mapToRegistry uri https://registry.npmjs.org/process
+126 verbose addRemoteTarball https://registry.npmjs.org/process/-/process-0.11.5.tgz not in flight; adding
+127 verbose addRemoteTarball [ 'https://registry.npmjs.org/process/-/process-0.11.5.tgz',
+127 verbose addRemoteTarball   'de49788f60e706f333adeea57a187ea9cc4c8495' ]
+128 info retry fetch attempt 1 at 11:59:05 PM
+129 info attempt registry request try #1 at 11:59:05 PM
+130 http fetch GET https://registry.npmjs.org/process/-/process-0.11.5.tgz
+131 http fetch 200 https://registry.npmjs.org/process/-/process-0.11.5.tgz
+132 silly fetchAndShaCheck shasum de49788f60e706f333adeea57a187ea9cc4c8495
+133 verbose addTmpTarball C:\Users\Dhanya\AppData\Local\Temp\npm-5564-ea3e426c\registry.npmjs.org\process\-\process-0.11.5.tgz not in flight; adding
+134 verbose addTmpTarball already have metadata; skipping unpack for process@0.11.5
+135 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+136 silly cache afterAdd process@0.11.5
+137 verbose afterAdd C:\Users\Dhanya\AppData\Roaming\npm-cache\process\0.11.5\package\package.json not in flight; writing
+138 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+139 verbose afterAdd C:\Users\Dhanya\AppData\Roaming\npm-cache\process\0.11.5\package\package.json written
+140 http 200 https://registry.npmjs.org/util
+141 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+141 verbose headers   etag: '"9I4KH6E8QHATTU34RZ92R9QH6"',
+141 verbose headers   'content-type': 'application/json',
+141 verbose headers   'content-encoding': 'gzip',
+141 verbose headers   'cache-control': 'max-age=300',
+141 verbose headers   'content-length': '1717',
+141 verbose headers   'accept-ranges': 'bytes',
+141 verbose headers   date: 'Sun, 10 Jul 2016 18:29:06 GMT',
+141 verbose headers   via: '1.1 varnish',
+141 verbose headers   age: '57',
+141 verbose headers   connection: 'keep-alive',
+141 verbose headers   'x-served-by': 'cache-lhr6347-LHR',
+141 verbose headers   'x-cache': 'HIT',
+141 verbose headers   'x-cache-hits': '1',
+141 verbose headers   'x-timer': 'S1468175346.534042,VS0,VE0',
+141 verbose headers   vary: 'Accept-Encoding' }
+142 silly get cb [ 200,
+142 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+142 silly get     etag: '"9I4KH6E8QHATTU34RZ92R9QH6"',
+142 silly get     'content-type': 'application/json',
+142 silly get     'content-encoding': 'gzip',
+142 silly get     'cache-control': 'max-age=300',
+142 silly get     'content-length': '1717',
+142 silly get     'accept-ranges': 'bytes',
+142 silly get     date: 'Sun, 10 Jul 2016 18:29:06 GMT',
+142 silly get     via: '1.1 varnish',
+142 silly get     age: '57',
+142 silly get     connection: 'keep-alive',
+142 silly get     'x-served-by': 'cache-lhr6347-LHR',
+142 silly get     'x-cache': 'HIT',
+142 silly get     'x-cache-hits': '1',
+142 silly get     'x-timer': 'S1468175346.534042,VS0,VE0',
+142 silly get     vary: 'Accept-Encoding' } ]
+143 verbose get saving util to C:\Users\Dhanya\AppData\Roaming\npm-cache\registry.npmjs.org\util\.cache.json
+144 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+145 silly addNameRange number 2 { name: 'util', range: '>=0.10.3 <0.11.0', hasData: true }
+146 silly addNameRange versions [ 'util', [ '0.4.9', '0.10.0', '0.10.1', '0.10.2', '0.10.3' ] ]
+147 silly addNamed util@0.10.3
+148 verbose addNamed "0.10.3" is a plain semver version for util
+149 silly cache afterAdd util@0.10.3
+150 verbose afterAdd C:\Users\Dhanya\AppData\Roaming\npm-cache\util\0.10.3\package\package.json not in flight; writing
+151 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+152 verbose afterAdd C:\Users\Dhanya\AppData\Roaming\npm-cache\util\0.10.3\package\package.json written
+153 silly install resolved [ { author: { name: 'Roman Shtylman', email: 'shtylman@gmail.com' },
+153 silly install resolved     name: 'process',
+153 silly install resolved     description: 'process information for node.js and browsers',
+153 silly install resolved     keywords: [ 'process' ],
+153 silly install resolved     scripts: { test: 'mocha test.js' },
+153 silly install resolved     version: '0.11.5',
+153 silly install resolved     repository:
+153 silly install resolved      { type: 'git',
+153 silly install resolved        url: 'git://github.com/shtylman/node-process.git' },
+153 silly install resolved     license: 'MIT',
+153 silly install resolved     browser: './browser.js',
+153 silly install resolved     main: './index.js',
+153 silly install resolved     engines: { node: '>= 0.6.0' },
+153 silly install resolved     devDependencies: { mocha: '2.2.1' },
+153 silly install resolved     gitHead: 'dbaeeb81fe68d00c0a5201f22dca56009b948202',
+153 silly install resolved     bugs: { url: 'https://github.com/shtylman/node-process/issues' },
+153 silly install resolved     _id: 'process@0.11.5',
+153 silly install resolved     _shasum: 'de49788f60e706f333adeea57a187ea9cc4c8495',
+153 silly install resolved     _from: 'process@>=0.11.1 <0.12.0',
+153 silly install resolved     _npmVersion: '3.8.6',
+153 silly install resolved     _nodeVersion: '5.11.0',
+153 silly install resolved     _npmUser: { name: 'cwmma', email: 'calvin.metcalf@gmail.com' },
+153 silly install resolved     dist:
+153 silly install resolved      { shasum: 'de49788f60e706f333adeea57a187ea9cc4c8495',
+153 silly install resolved        tarball: 'https://registry.npmjs.org/process/-/process-0.11.5.tgz' },
+153 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+153 silly install resolved     _npmOperationalInternal:
+153 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+153 silly install resolved        tmp: 'tmp/process-0.11.5.tgz_1465844241330_0.7085902339313179' },
+153 silly install resolved     directories: {},
+153 silly install resolved     _resolved: 'https://registry.npmjs.org/process/-/process-0.11.5.tgz' },
+153 silly install resolved   { author: { name: 'Joyent', url: 'http://www.joyent.com' },
+153 silly install resolved     name: 'util',
+153 silly install resolved     description: 'Node.JS util module',
+153 silly install resolved     keywords: [ 'util' ],
+153 silly install resolved     version: '0.10.3',
+153 silly install resolved     homepage: 'https://github.com/defunctzombie/node-util',
+153 silly install resolved     repository:
+153 silly install resolved      { type: 'git',
+153 silly install resolved        url: 'git://github.com/defunctzombie/node-util.git' },
+153 silly install resolved     main: './util.js',
+153 silly install resolved     scripts: { test: 'node test/node/*.js && zuul test/browser/*.js' },
+153 silly install resolved     dependencies: { inherits: '2.0.1' },
+153 silly install resolved     license: 'MIT',
+153 silly install resolved     devDependencies: { zuul: '~1.0.9' },
+153 silly install resolved     browser: { './support/isBuffer.js': './support/isBufferBrowser.js' },
+153 silly install resolved     bugs: { url: 'https://github.com/defunctzombie/node-util/issues' },
+153 silly install resolved     _id: 'util@0.10.3',
+153 silly install resolved     dist:
+153 silly install resolved      { shasum: '7afb1afe50805246489e3db7fe0ed379336ac0f9',
+153 silly install resolved        tarball: 'https://registry.npmjs.org/util/-/util-0.10.3.tgz' },
+153 silly install resolved     _from: 'util@>=0.10.3 <0.11.0',
+153 silly install resolved     _npmVersion: '1.3.24',
+153 silly install resolved     _npmUser: { name: 'shtylman', email: 'shtylman@gmail.com' },
+153 silly install resolved     maintainers: [ [Object] ],
+153 silly install resolved     directories: {},
+153 silly install resolved     _shasum: '7afb1afe50805246489e3db7fe0ed379336ac0f9',
+153 silly install resolved     _resolved: 'https://registry.npmjs.org/util/-/util-0.10.3.tgz',
+153 silly install resolved     readme: 'ERROR: No README data found!' } ]
+154 info install process@0.11.5 into E:\projectisil\IoT sample\node_modules\path
+155 info install util@0.10.3 into E:\projectisil\IoT sample\node_modules\path
+156 info installOne process@0.11.5
+157 verbose installOne of process to E:\projectisil\IoT sample\node_modules\path not in flight; installing
+158 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+159 info installOne util@0.10.3
+160 verbose installOne of util to E:\projectisil\IoT sample\node_modules\path not in flight; installing
+161 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+162 verbose lock using C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks\process-9c28da1872b85bcf.lock for E:\projectisil\IoT sample\node_modules\path\node_modules\process
+163 verbose lock using C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks\util-fc709673ac9b1ba8.lock for E:\projectisil\IoT sample\node_modules\path\node_modules\util
+164 silly install write writing process 0.11.5 to E:\projectisil\IoT sample\node_modules\path\node_modules\process
+165 silly install write writing util 0.10.3 to E:\projectisil\IoT sample\node_modules\path\node_modules\util
+166 verbose unbuild node_modules\path\node_modules\process
+167 verbose unbuild node_modules\path\node_modules\util
+168 silly gentlyRm E:\projectisil\IoT sample\node_modules\path\node_modules\process is being purged from base E:\projectisil\IoT sample
+169 verbose gentlyRm don't care about contents; nuking E:\projectisil\IoT sample\node_modules\path\node_modules\process
+170 silly gentlyRm E:\projectisil\IoT sample\node_modules\path\node_modules\util is being purged from base E:\projectisil\IoT sample
+171 verbose gentlyRm don't care about contents; nuking E:\projectisil\IoT sample\node_modules\path\node_modules\util
+172 verbose tar unpack C:\Users\Dhanya\AppData\Roaming\npm-cache\process\0.11.5\package.tgz
+173 verbose tar unpacking to E:\projectisil\IoT sample\node_modules\path\node_modules\process
+174 silly gentlyRm E:\projectisil\IoT sample\node_modules\path\node_modules\process is being purged
+175 verbose gentlyRm don't care about contents; nuking E:\projectisil\IoT sample\node_modules\path\node_modules\process
+176 verbose tar unpack C:\Users\Dhanya\AppData\Roaming\npm-cache\util\0.10.3\package.tgz
+177 verbose tar unpacking to E:\projectisil\IoT sample\node_modules\path\node_modules\util
+178 silly gentlyRm E:\projectisil\IoT sample\node_modules\path\node_modules\util is being purged
+179 verbose gentlyRm don't care about contents; nuking E:\projectisil\IoT sample\node_modules\path\node_modules\util
+180 silly gunzTarPerm modes [ '777', '666' ]
+181 silly gunzTarPerm modes [ '777', '666' ]
+182 silly gunzTarPerm extractEntry package.json
+183 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+184 silly gunzTarPerm extractEntry README.md
+185 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+186 silly gunzTarPerm extractEntry LICENSE
+187 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+188 silly gunzTarPerm extractEntry browser.js
+189 silly gunzTarPerm modified mode [ 'browser.js', 420, 438 ]
+190 silly gunzTarPerm extractEntry index.js
+191 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+192 silly gunzTarPerm extractEntry test.js
+193 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+194 silly gunzTarPerm extractEntry package.json
+195 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+196 silly gunzTarPerm extractEntry .npmignore
+197 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+198 silly gunzTarPerm extractEntry README.md
+199 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+200 silly gunzTarPerm extractEntry LICENSE
+201 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+202 silly gunzTarPerm extractEntry util.js
+203 silly gunzTarPerm modified mode [ 'util.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry .travis.yml
+205 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+206 silly gunzTarPerm extractEntry .zuul.yml
+207 silly gunzTarPerm modified mode [ '.zuul.yml', 420, 438 ]
+208 silly gunzTarPerm extractEntry support/isBuffer.js
+209 silly gunzTarPerm modified mode [ 'support/isBuffer.js', 420, 438 ]
+210 verbose write writing to E:\projectisil\IoT sample\node_modules\path\node_modules\process\package.json
+211 info preinstall process@0.11.5
+212 verbose readDependencies loading dependencies from E:\projectisil\IoT sample\node_modules\path\node_modules\process\package.json
+213 verbose readDependencies loading dependencies from E:\projectisil\IoT sample\node_modules\path\node_modules\process\package.json
+214 silly install resolved []
+215 verbose about to build E:\projectisil\IoT sample\node_modules\path\node_modules\process
+216 info build E:\projectisil\IoT sample\node_modules\path\node_modules\process
+217 info linkStuff process@0.11.5
+218 silly linkStuff process@0.11.5 has E:\projectisil\IoT sample\node_modules\path\node_modules as its parent node_modules
+219 verbose linkBins process@0.11.5
+220 verbose linkMans process@0.11.5
+221 verbose rebuildBundles process@0.11.5
+222 info install process@0.11.5
+223 info postinstall process@0.11.5
+224 verbose unlock done using C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks\process-9c28da1872b85bcf.lock for E:\projectisil\IoT sample\node_modules\path\node_modules\process
+225 silly gunzTarPerm extractEntry support/isBufferBrowser.js
+226 silly gunzTarPerm modified mode [ 'support/isBufferBrowser.js', 420, 438 ]
+227 silly gunzTarPerm extractEntry test/browser/inspect.js
+228 silly gunzTarPerm modified mode [ 'test/browser/inspect.js', 420, 438 ]
+229 silly gunzTarPerm extractEntry test/browser/is.js
+230 silly gunzTarPerm modified mode [ 'test/browser/is.js', 420, 438 ]
+231 silly gunzTarPerm extractEntry test/node/debug.js
+232 silly gunzTarPerm modified mode [ 'test/node/debug.js', 420, 438 ]
+233 silly gunzTarPerm extractEntry test/node/format.js
+234 silly gunzTarPerm modified mode [ 'test/node/format.js', 420, 438 ]
+235 silly gunzTarPerm extractEntry test/node/inspect.js
+236 silly gunzTarPerm modified mode [ 'test/node/inspect.js', 420, 438 ]
+237 silly gunzTarPerm extractEntry test/node/log.js
+238 silly gunzTarPerm modified mode [ 'test/node/log.js', 420, 438 ]
+239 silly gunzTarPerm extractEntry test/node/util.js
+240 silly gunzTarPerm modified mode [ 'test/node/util.js', 420, 438 ]
+241 verbose write writing to E:\projectisil\IoT sample\node_modules\path\node_modules\util\package.json
+242 info preinstall util@0.10.3
+243 verbose readDependencies loading dependencies from E:\projectisil\IoT sample\node_modules\path\node_modules\util\package.json
+244 silly prepareForInstallMany adding inherits@2.0.1 from util dependencies
+245 verbose readDependencies loading dependencies from E:\projectisil\IoT sample\node_modules\path\node_modules\util\package.json
+246 silly cache add args [ 'inherits@2.0.1', null ]
+247 verbose cache add spec inherits@2.0.1
+248 silly cache add parsed spec Result {
+248 silly cache add   raw: 'inherits@2.0.1',
+248 silly cache add   scope: null,
+248 silly cache add   name: 'inherits',
+248 silly cache add   rawSpec: '2.0.1',
+248 silly cache add   spec: '2.0.1',
+248 silly cache add   type: 'version' }
+249 silly addNamed inherits@2.0.1
+250 verbose addNamed "2.0.1" is a plain semver version for inherits
+251 silly mapToRegistry name inherits
+252 silly mapToRegistry using default registry
+253 silly mapToRegistry registry https://registry.npmjs.org/
+254 silly mapToRegistry data Result {
+254 silly mapToRegistry   raw: 'inherits',
+254 silly mapToRegistry   scope: null,
+254 silly mapToRegistry   name: 'inherits',
+254 silly mapToRegistry   rawSpec: '',
+254 silly mapToRegistry   spec: 'latest',
+254 silly mapToRegistry   type: 'tag' }
+255 silly mapToRegistry uri https://registry.npmjs.org/inherits
+256 verbose addNameVersion registry:https://registry.npmjs.org/inherits not in flight; fetching
+257 verbose request uri https://registry.npmjs.org/inherits
+258 verbose request no auth needed
+259 info attempt registry request try #1 at 11:59:08 PM
+260 verbose etag "DW5AARMI0EU78WM0DVWHCUX08"
+261 http request GET https://registry.npmjs.org/inherits
+262 http 304 https://registry.npmjs.org/inherits
+263 verbose headers { date: 'Sun, 10 Jul 2016 18:29:08 GMT',
+263 verbose headers   via: '1.1 varnish',
+263 verbose headers   'cache-control': 'max-age=300',
+263 verbose headers   etag: '"DW5AARMI0EU78WM0DVWHCUX08"',
+263 verbose headers   age: '138',
+263 verbose headers   connection: 'keep-alive',
+263 verbose headers   'x-served-by': 'cache-lhr6337-LHR',
+263 verbose headers   'x-cache': 'HIT',
+263 verbose headers   'x-cache-hits': '2',
+263 verbose headers   'x-timer': 'S1468175348.989281,VS0,VE0',
+263 verbose headers   vary: 'Accept-Encoding' }
+264 silly get cb [ 304,
+264 silly get   { date: 'Sun, 10 Jul 2016 18:29:08 GMT',
+264 silly get     via: '1.1 varnish',
+264 silly get     'cache-control': 'max-age=300',
+264 silly get     etag: '"DW5AARMI0EU78WM0DVWHCUX08"',
+264 silly get     age: '138',
+264 silly get     connection: 'keep-alive',
+264 silly get     'x-served-by': 'cache-lhr6337-LHR',
+264 silly get     'x-cache': 'HIT',
+264 silly get     'x-cache-hits': '2',
+264 silly get     'x-timer': 'S1468175348.989281,VS0,VE0',
+264 silly get     vary: 'Accept-Encoding' } ]
+265 verbose etag https://registry.npmjs.org/inherits from cache
+266 verbose get saving inherits to C:\Users\Dhanya\AppData\Roaming\npm-cache\registry.npmjs.org\inherits\.cache.json
+267 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+268 silly cache afterAdd inherits@2.0.1
+269 verbose afterAdd C:\Users\Dhanya\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json not in flight; writing
+270 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+271 verbose afterAdd C:\Users\Dhanya\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json written
+272 silly install resolved [ { name: 'inherits',
+272 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+272 silly install resolved     version: '2.0.1',
+272 silly install resolved     keywords:
+272 silly install resolved      [ 'inheritance',
+272 silly install resolved        'class',
+272 silly install resolved        'klass',
+272 silly install resolved        'oop',
+272 silly install resolved        'object-oriented',
+272 silly install resolved        'inherits',
+272 silly install resolved        'browser',
+272 silly install resolved        'browserify' ],
+272 silly install resolved     main: './inherits.js',
+272 silly install resolved     browser: './inherits_browser.js',
+272 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits.git' },
+272 silly install resolved     license: 'ISC',
+272 silly install resolved     scripts: { test: 'node test' },
+272 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+272 silly install resolved     _id: 'inherits@2.0.1',
+272 silly install resolved     dist:
+272 silly install resolved      { shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+272 silly install resolved        tarball: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz' },
+272 silly install resolved     _from: 'inherits@2.0.1',
+272 silly install resolved     _npmVersion: '1.3.8',
+272 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+272 silly install resolved     maintainers: [ [Object] ],
+272 silly install resolved     directories: {},
+272 silly install resolved     _shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+272 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+272 silly install resolved     readme: 'ERROR: No README data found!',
+272 silly install resolved     homepage: 'https://github.com/isaacs/inherits#readme' } ]
+273 info install inherits@2.0.1 into E:\projectisil\IoT sample\node_modules\path\node_modules\util
+274 info installOne inherits@2.0.1
+275 verbose installOne of inherits to E:\projectisil\IoT sample\node_modules\path\node_modules\util not in flight; installing
+276 verbose correctMkdir C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+277 verbose lock using C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks\inherits-51f0620ea0eb2f19.lock for E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits
+278 silly install write writing inherits 2.0.1 to E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits
+279 verbose unbuild node_modules\path\node_modules\util\node_modules\inherits
+280 silly gentlyRm E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits is being purged from base E:\projectisil\IoT sample
+281 verbose gentlyRm don't care about contents; nuking E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits
+282 verbose tar unpack C:\Users\Dhanya\AppData\Roaming\npm-cache\inherits\2.0.1\package.tgz
+283 verbose tar unpacking to E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits
+284 silly gentlyRm E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits is being purged
+285 verbose gentlyRm don't care about contents; nuking E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits
+286 silly gunzTarPerm modes [ '777', '666' ]
+287 silly gunzTarPerm extractEntry package.json
+288 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+289 silly gunzTarPerm extractEntry README.md
+290 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+291 silly gunzTarPerm extractEntry LICENSE
+292 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+293 silly gunzTarPerm extractEntry inherits.js
+294 silly gunzTarPerm modified mode [ 'inherits.js', 420, 438 ]
+295 silly gunzTarPerm extractEntry inherits_browser.js
+296 silly gunzTarPerm modified mode [ 'inherits_browser.js', 420, 438 ]
+297 silly gunzTarPerm extractEntry test.js
+298 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+299 verbose write writing to E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits\package.json
+300 info preinstall inherits@2.0.1
+301 verbose readDependencies loading dependencies from E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits\package.json
+302 verbose readDependencies loading dependencies from E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits\package.json
+303 silly install resolved []
+304 verbose about to build E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits
+305 info build E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits
+306 info linkStuff inherits@2.0.1
+307 silly linkStuff inherits@2.0.1 has E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules as its parent node_modules
+308 verbose linkBins inherits@2.0.1
+309 verbose linkMans inherits@2.0.1
+310 verbose rebuildBundles inherits@2.0.1
+311 info install inherits@2.0.1
+312 info postinstall inherits@2.0.1
+313 verbose unlock done using C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks\inherits-51f0620ea0eb2f19.lock for E:\projectisil\IoT sample\node_modules\path\node_modules\util\node_modules\inherits
+314 verbose about to build E:\projectisil\IoT sample\node_modules\path\node_modules\util
+315 info build E:\projectisil\IoT sample\node_modules\path\node_modules\util
+316 info linkStuff util@0.10.3
+317 silly linkStuff util@0.10.3 has E:\projectisil\IoT sample\node_modules\path\node_modules as its parent node_modules
+318 verbose linkBins util@0.10.3
+319 verbose linkMans util@0.10.3
+320 verbose rebuildBundles util@0.10.3
+321 verbose rebuildBundles [ 'inherits' ]
+322 info install util@0.10.3
+323 info postinstall util@0.10.3
+324 verbose unlock done using C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks\util-fc709673ac9b1ba8.lock for E:\projectisil\IoT sample\node_modules\path\node_modules\util
+325 verbose about to build E:\projectisil\IoT sample\node_modules\path
+326 info build E:\projectisil\IoT sample\node_modules\path
+327 info linkStuff path@0.12.7
+328 silly linkStuff path@0.12.7 has E:\projectisil\IoT sample\node_modules as its parent node_modules
+329 verbose linkBins path@0.12.7
+330 verbose linkMans path@0.12.7
+331 verbose rebuildBundles path@0.12.7
+332 verbose rebuildBundles [ 'process', 'util' ]
+333 info install path@0.12.7
+334 info postinstall path@0.12.7
+335 verbose unlock done using C:\Users\Dhanya\AppData\Roaming\npm-cache\_locks\path-db5cf7a53904e73d.lock for E:\projectisil\IoT sample\node_modules\path
+336 verbose validateInstall loading E:\projectisil\IoT sample\package.json for validation
+337 verbose stack Error: The package mongoose@4.5.3 does not satisfy its siblings' peerDependencies requirements!
+337 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+337 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+337 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+337 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+337 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+337 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+337 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+337 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+337 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+337 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+338 verbose cwd E:\projectisil\IoT sample
+339 error Windows_NT 6.1.7601
+340 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "path" "--save"
+341 error node v4.4.4
+342 error npm  v2.15.1
+343 error code EPEERINVALID
+344 error peerinvalid The package mongoose@4.5.3 does not satisfy its siblings' peerDependencies requirements!
+344 error peerinvalid Peer mongoose-auto-increment@4.0.0 wants mongoose@~4.0.0
+345 verbose exit [ 1, true ]

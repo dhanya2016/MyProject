@@ -1,0 +1,58 @@
+<html>
+  <head>
+
+    <!-- needs to be updated with newest eon lib version -->
+     <script type="text/javascript" src="http://pubnub.github.io/eon/v/eon/0.0.10/eon.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://pubnub.github.io/eon/v/eon/0.0.10/eon.css" />
+
+  </head>
+  <body>
+
+    <div id="chart"></div>
+
+    <script>
+      var pubnub = PUBNUB.init({
+        // publish_key: 'pub-c-e3f00db1-2848-4ace-9067-dcb46eac8df6',
+        subscribe_key: 'sub-c-5038f664-419d-11e6-ba28-02ee2ddab7fe',
+        ssl: true
+      });
+     eon.chart({
+      pubnub: pubnub,
+      channel: 'Channel-svz03rzhg',
+      limit: 100,
+      rate: 10,
+      // ssl: true,
+      debug: true,
+      history: true,
+      // history: false,
+      generate: {
+        transition: {
+                duration: 3
+            },
+        bindto: '#chart',
+        data: {
+                x: 'x'
+            },
+            axis: {
+                x: {
+                    type: 'timeseries',
+                    tick: {
+                        format: '%H:%m:%S'
+                    }
+                }
+            }
+      },
+         transform: function(m) {
+            console.log("testttt++")
+        console.log(m)
+            return {
+                eon: {
+                    'Humidy': m.Humidity,
+                    'Temperature': m.Temperature
+                }
+            }
+        }
+     });
+    </script>
+  </body>
+</html>
